@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Experience</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+
+        }
+
+        body {
+            background-color: rgb(63, 17, 17);
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 50px 0;
+        }
+
+        .header {
+            display: flex;
+            color: bisque;
+            justify-content: center;
+        }
+
+        .boxes {
+            margin: 10px;
+            padding: 20px;
+
+        }
+
+        .box {
+            border: 1px solid rgba(119, 70, 70, 0.239);
+            border-radius: 40px;
+            color: beige;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(97, 34, 34, 0.5);
+            transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+        }
+
+        .box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+        }
+
+        .box .experience-title h3 {
+            color: blanchedalmond;
+            margin-top: 5px;
+            margin-bottom: 13px;
+            font-size: 40px;
+        }
+
+        .box span {
+            position: relative;
+            font-size: 10px;
+            top: 10px;
+            left: 900px;
+            letter-spacing: 2px;
+            color: red;
+            text-shadow: rgb(68, 8, 44);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Experience</h1>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <div class="experience-title">
+                    <h3>BCA</h3>
+                    <p>My experience in BCA has helped me develop a strong foundation in programming, web technologies,
+                        and computer concepts. Through coursework, practical labs, and assignments, I learned how to
+                        write code, build interfaces, work with databases, and understand how software and systems
+                        operate. This experience has improved my analytical thinking, problem-solving ability, and
+                        confidence in working with real technical tasks.</p>
+                    <span class="year">In Progress</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="experience-title">
+                    <h3>High School</h3>
+                    <p>My high school experience played an important role in shaping my academic mindset and personal
+                        growth. During this period, I developed strong study habits, communication skills, and
+                        confidence. I participated in learning activities that strengthened my reasoning ability,
+                        creativity, and understanding of core subjects. This stage helped build the foundation that
+                        later supported my journey into higher education and technology.</p>
+                    <span class="year">Completed</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="experience-title">
+                    <h3>Intermediate</h3>
+                    <p>My Intermediate experience played a key role in shaping my academic development and future goals.
+                        During this phase, I improved my study skills, analytical thinking, and subject understanding
+                        while becoming more disciplined and focused. It was also the time where I started taking more
+                        interest in technology and digital learning, which guided me toward choosing a computer-related
+                        field for higher studies.</p>
+                    <span class="year">Completed</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

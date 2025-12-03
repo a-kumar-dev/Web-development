@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Delius&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tsukimi+Rounded&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+            background-color: rgb(22, 5, 5);
+            color: white;
+
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+
+        }
+
+        .section-heading {
+            font-size: 40px;
+            text-align: center;
+            margin-top: 50px;
+            color: #fbdddd;
+        }
+
+        .footer {
+            font-size: 23px;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 45px;
+            letter-spacing: 2px;
+            color: #e1c0c0;
+        }
+
+        .services-cards {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .services-card {
+            width: 350px;
+            border: 1px solid rgba(119, 70, 70, 0.239);
+            border-radius: 20px;
+            padding: 20px;
+            margin: 20px;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(97, 34, 34, 0.5);
+            transition: 0.5s ease;
+        }
+
+
+        .services-card:hover {
+            transform: translateY(-20px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+        }
+
+        .services-card i {
+            font-size: 40px;
+            margin-bottom: 20px;
+            color: #b74b4b;
+        }
+
+        .services-card h2 {
+            margin-bottom: 10px;
+            font-size: 24px;
+            color: wheat;
+        }
+
+        .services-card p {
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        @media screen and (max-width:768px) {
+            .services-cards {
+                flex-direction: column;
+                align-items: center;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="section-heading">Our Services</h1>
+        <div class="services-cards">
+            <div class="services-card">
+                <i class="fas fa-desktop"></i>
+                <h2>Web Developer</h2>
+                <p>I am a web developer specializing in creating responsive, user-friendly, and visually appealing
+                    websites. My work focuses on clean design, fast loading speed, SEO-friendly structure, and seamless
+                    user experience. Whether you need a business site, portfolio, landing page, or custom feature, I
+                    deliver reliable solutions with modern technologies and best practices.</p>
+            </div>
+            <div class="services-card">
+                <i class="fas fa-code"></i>
+                <h2>Web Designer</h2>
+                <p>I am a web designer focused on creating beautiful, intuitive, and user-centered website designs. I
+                    combine layout structure, typography, color balance, and visual flow to build interfaces that feel
+                    modern, engaging, and easy to navigate. My goal is to turn ideas into designs that not only look
+                    great but communicate clearly and convert visitors effectively.</p>
+            </div>
+            <div class="services-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h2>Web App Development</h2>
+                <p>I specialize in building custom web applications that are efficient, responsive, and tailored to
+                    real-world needs. From intuitive user interfaces to powerful backend functionality, I create
+                    solutions that streamline processes, improve engagement, and support business growth. My development
+                    approach focuses on clean code, performance, usability, and long-term scalability.</p>
+            </div>
+        </div>
+        <h3 class="footer">Thanks for choosing us</h3>
+    </div>
+</body>
+
+</html>

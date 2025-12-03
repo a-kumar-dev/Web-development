@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>My Skills</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Delius&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tsukimi+Rounded&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Poppins, Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: rgb(68, 26, 26);
+
+        }
+
+        .inner {
+            padding-top: 20px;
+        }
+
+        .header {
+            text-align: center;
+            color: aliceblue;
+            padding: 1rem;
+            position: relative;
+            animation: fadeInDown 1s ease-out;
+            text-shadow: 0 0 10px #ffffff80;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-self: center;
+            align-items: center;
+            text-align: center;
+            grid-gap: 1rem;
+            padding: 1rem 80px;
+            font-size: 16px;
+            flex-flow: wrap;
+
+        }
+
+        .skill-box {
+            padding: 20px;
+            color: #c2b8b8;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            margin-bottom: 0.5rem;
+            border: 1px solid rgba(119, 70, 70, 0.239);
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(53, 40, 40, 0.4);
+            transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+        }
+
+        .skill-box:hover {
+            transform: translateY(-5px);
+
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+
+        }
+
+
+        .skill-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0.5rem;
+            margin-bottom: 0, 5rem;
+        }
+
+        .img {
+            width: 90px;
+            height: 90px;
+            position: relative;
+            border-radius: 45px;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .skill-title h3 {
+            margin-top: 10px;
+            font-size: 20px;
+            color: rgb(169, 142, 139);
+
+        }
+
+        .skill-icon {
+            width: 50px;
+            z-index: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="inner">
+        <div class="header">
+            <h1>My Skills</h1>
+        </div>
+        <div class="container">
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="HTML 5.jpg" class="skill-icon">
+                    </div>
+                    <h3>Html5</h3>
+                </div>
+                <p>I have good skills in HTML and can create clean, structured web pages with proper use of tags and
+                    layout. I focus on writing semantic HTML that makes the website easy to understand for both users
+                    and search engines. I know how to build sections, forms, tables, and responsive structures that work
+                    well with CSS and JavaScript for modern web design.</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="CSS.jpg" class="skill-icon">
+                    </div>
+                    <h3>CSS</h3>
+                </div>
+                <p> I have good skills in HTML and can create clean, structured web pages with proper use of tags and
+                    layout. I focus on writing semantic HTML that makes the website easy to understand for both users
+                    and search engines. I know how to build sections, forms, tables, and responsive structures that work
+                    well with CSS and JavaScript for modern web design.</p>
+            </div>
+            <div class=" skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="PYTHON.jpg" class="skill-icon">
+                    </div>
+                    <h3>PYTHON</h3>
+                </div>
+                <p>I have good knowledge of Python and can write clean and efficient code for problem-solving,
+                    automation, and application logic. I understand variables, functions, loops, conditions, data types,
+                    and object-oriented concepts. I use Python to handle data, build simple programs, and create scripts
+                    that make tasks faster and more efficient.</p>
+            </div>
+            <div class=" skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="C++.jpg" class="skill-icon">
+                    </div>
+                    <h3>C++</h3>
+                </div>
+                <p>I have good knowledge of C++ and can develop structured and efficient programs using core programming
+                    concepts. I understand data types, operators, loops, functions, pointers, and object-oriented
+                    programming such as classes, objects, inheritance, and polymorphism. I use C++ to build logical
+                    solutions and work with memory-based programming fundamentals.</p>
+            </div>
+            <div class=" skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="SQl.jpg" class="skill-icon">
+                    </div>
+                    <h3>SQL</h3>
+                </div>
+                <p>I have good knowledge of SQL and can work with databases to store, manage, and access data
+                    effectively. I understand how to write queries, create tables, filter results, join data from
+                    multiple tables, and manage records. I use SQL to analyze information, organize datasets, andlogical
+                    solutions and work with
+                    support applications that rely on structured data.</p>
+            </div>
+            <div class=" skill-box">
+                <div class="skill-title">
+                    <div class="img">
+                        <img src="JS.jpg" class="skill-icon">
+                    </div>
+                    <h3>Java Scipt</h3>
+                </div>
+                <p>I have good knowledge of JavaScript and can use it to make websites dynamic and interactive. I
+                    understand variables, functions, loops, events, DOM manipulation, JSON, and basic asynchronous
+                    programming. I use JavaScript to create interactive elements, handle user actions, update page
+                    content, and connect frontend logic with APIs for smooth functionality.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
